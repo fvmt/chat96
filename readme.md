@@ -18,6 +18,8 @@ PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=python
 This is required because of streamlit conflicting dependencies
 and streamlit execution doesn't support dotenv out of the box
 
+Also you'll need Qdrant db
+
 Enter valid settings into .env file:
 ```
 OPENAI_API_KEY=
